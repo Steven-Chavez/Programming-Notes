@@ -1,11 +1,11 @@
-//tells C to include a header file. This header lets us use input/output functions such as printf()
+// Standard I/O library for functions like printf()
 #include <stdio.h> 
 
-// main() is a special function. Your program starts running here. Any code inside the curly brackets {} will be executed.
+// Main entry point where execution begins
 int main() { 
-  // printf() is a function used to output (print) text to the screen. In our example, it prints Hello World!.
+  // Prints text to the standard output
   printf("Hello World!");
   
-  //ends the main() function and sends a value back to the operating system.
+  // Return 0 indicates successful execution
   return 0; 
 }
