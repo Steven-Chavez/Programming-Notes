@@ -12,14 +12,14 @@ int main(){
 	// Move forward to touch the can. Don't knock it down or move it out of the circle
 	motor(right_motor, 70);
 	motor(left_motor, 70);
-	msleep(7100);
+	msleep(7000);
 	
 	ao();
 	
 	// Move back to start
 	motor(right_motor, -70);
 	motor(left_motor, -70);
-	msleep(7100);
+	msleep(7000);
 	
 	ao();
 	
