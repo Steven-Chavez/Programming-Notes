@@ -32,7 +32,13 @@ int main() {
   
   printf("%d\n", firstInt);
   printf("%f\n", firstFloatNum);
-  printf("%c\n", firstChar);
+  printf("%c\n\n", firstChar);
+
+  // Combine text and variables
+  printf("This is my favorite char: %c\n\n", firstChar);
+
+  // To print different types in a single printf() function, you can use the following:
+  printf("My float is %f and my int is %d!\n\n", firstFloatNum, firstInt);
   
   return 0; 
 }
