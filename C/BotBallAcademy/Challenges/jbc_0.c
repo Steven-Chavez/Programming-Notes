@@ -6,8 +6,8 @@
  
 int main(){
 		// Initialize motor variables
-     int right_motor = 3;
-		 int left_motor = 0;
+     	int right_motor = 3;
+		int left_motor = 0;
 
 		// Move forward to the end of the matt
 		 motor(right_motor, 70);
