@@ -19,7 +19,7 @@ int main() {
   // assign a variable
   firstInt = 5;
   // Declare and assign variable in one line
-  int secondInt = 10;
+  // int firstInt = 10;
 
   /*************************
   * FORMAT SPECIFIERS (printf)
@@ -27,7 +27,12 @@ int main() {
   * Syntax: printf("%[specifier]", variable);
   * Example: %d = int
   */
-  printf("%d", firstInt);
+  float firstFloatNum = 2.28;
+  char firstChar = 'D';
+  
+  printf("%d\n", firstInt);
+  printf("%f\n", firstFloatNum);
+  printf("%c\n", firstChar);
   
   return 0; 
 }
