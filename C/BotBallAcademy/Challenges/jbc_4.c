@@ -32,7 +32,13 @@ int main() {
 	drive(50, 50, 3000);
 	
 	// Can 5
-	drive(0, 50, 6000);
+	drive(0, 50, 6500);
+
+	// Can 6 & 7
+	drive(50, 50, 3000);
+
+	// Can 8
+	drive(50, 0, 5000);
 	
 	ao(); // Turn off all motors at the end
 	return 0;
