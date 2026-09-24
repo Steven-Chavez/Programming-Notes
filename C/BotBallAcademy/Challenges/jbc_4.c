@@ -1,6 +1,6 @@
 // Author: Steven Chavez
 // Date: 9/24/2026
-// Challenge: JBC 4
+// Challenge: JBC 3 (Optimized Arc Motion)
 #include <kipr/wombat.h>
 #include <stdio.h>
 
@@ -28,6 +28,12 @@ int main() {
 	drive(50, 40, 1500);
 	drive(50, -20, 5000);
 
+	// Can 4
+	drive(50, 50, 3000);
+	
+	// Can 5
+	drive(0, 50, 6000);
+	
 	ao(); // Turn off all motors at the end
 	return 0;
 }
