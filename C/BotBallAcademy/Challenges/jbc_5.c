@@ -19,16 +19,17 @@ int main() {
 	drive(50, 10, 3000);
 	drive(30, 50, 4000);
 
-	// Circle 2
-	drive(-50, 50, 3000);
-	drive(55, 30, 9000);
-
 	// Circle 3
-	drive(50, -50, 3000);
+	drive(-25, -50, 10000);
 
 	// Circle 5
-	drive(30, 55, 12000);
-	
+	drive(20, 50, 9800);
+	drive(50, 50, 4000);
+
+	// Circle 7 
+	drive(10, 50, 5000);
+
+
 	ao(); // Turn off all motors at the end
 	return 0;
 }
