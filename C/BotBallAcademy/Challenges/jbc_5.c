@@ -24,7 +24,10 @@ int main() {
 	drive(55, 30, 9000);
 
 	// Circle 3
-	drive(50, 10, 2000);
+	drive(50, -50, 3000);
+
+	// Circle 5
+	drive(30, 55, 12000);
 	
 	ao(); // Turn off all motors at the end
 	return 0;
