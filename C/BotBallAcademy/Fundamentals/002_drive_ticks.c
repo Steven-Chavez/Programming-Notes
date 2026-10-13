@@ -19,9 +19,25 @@ void drive_ticks(int left_speed, int left_ticks, int right_speed, int right_tick
     bmd(RIGHT_MOTOR);
 }
 
+/*
+Straight
+drive_ticks(500, 3000, 500, 3000);
+
+Reverse
+drive_ticks(500, -3000, 500, -3000);
+
+Left 90 degrees
+drive_ticks(500, 1100, 500, -1100);
+
+Right 90 degrees
+drive_ticks(500, -1100, 500, 1100);
+
+*/
+
 int main() {
 
-	drive_ticks(-800, -3000, 800, 3000);
+
+	drive_ticks(500, -1100, 500, 1100);
 
 	ao(); // Turn off all motors at the end
 	return 0;
